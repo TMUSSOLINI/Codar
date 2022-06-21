@@ -1,0 +1,298 @@
+:root{
+    --vermelho:#cf0e0e;
+    --preto: #000000;
+    --branco: #ffffff;
+    --fontfamyli: sans-serif;
+}
+
+
+body{
+    margin: 0;
+}
+main{
+    margin: 0 auto;
+    width: 1000px;
+}
+.flex__container--cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__titulo{
+    font-family:var(--fontfamyli);
+    color: var(--vermelho);
+}
+
+#ponto{
+    color: var(--preto);
+}
+
+.container__menu--cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list{
+    list-style: none;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    font-family: var(--fontfamyli);
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: large;
+    font-family: var(--fontfamyli);
+    color: var(--preto);
+}
+.Botao{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: var(--vermelho);
+    width: 100px;
+    background-color: var(--vermelho);
+    height: 30px;
+    margin-left: 40px;
+}
+.botao_texto{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: large;
+    font-family: var(--fontfamyli);
+}
+.sessao{
+    height: 300px;
+}
+.sessao_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sessao_imagem{
+    width: auto;
+    height: 250px;
+    padding: 20px;
+    margin-left: 40px;
+}
+.subtitulo_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitulo_span{
+    font-family: var(--fontfamyli);
+    color: var(--preto);
+    font-size: 15px;
+    padding-right: 15px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.subtitulo_titulo{
+    color: var(--vermelho);
+    margin-right: 60px;
+    font-size: 40px;
+}
+.Botao_sessao{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: var(--vermelho);
+    width: 200px;
+    background-color: var(--vermelho);
+    height: 35px;
+    margin-top: 15px;
+    color: var(--branco);
+}
+.vantagens{
+    height: 300px;
+    margin-top: 100px;
+}
+.vantagens__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vantagens_ul{
+    margin-left: 40px;
+}
+.vantagens_texto{
+    list-style-type: none;
+    margin-left: 10px;
+    font-family: var(--fontfamyli);
+    font-weight: bold;
+}
+.vantagens_span{
+    border: 1px solid;
+    border-radius: 100%
+    ;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.vantagens_imagem{
+    width: auto;
+    height: 250px;
+    padding: 20px;
+    margin-right: 80px;
+}
+
+.formulario_container{
+    margin-left: 40px;
+}
+
+.formulario_titulo{
+    font-weight: bold;
+    font-family: var(--fontfamyli);
+    margin-bottom: 0;
+}
+#formulario_telefone{
+    border: 1px solid silver;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: silver;
+}
+
+.depoimentos{
+    height: 200px;
+    margin-top: 50px;
+}
+
+.depoimentos_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+}
+
+.depoimentos_caixa{
+    display: flex;
+    justify-content: space-around;
+    background-color: silver;
+    height: 120px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+#circulo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.depoimentos_texto{
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.depoimento_depo{
+    font-size: 9px;
+    padding: 2px;
+    font-family: var(--fontfamyli);
+}
+.depoimento_nome{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: var(--fontfamyli);
+}
+.depoimento_profissao{
+    font-weight: bold;
+    font-family: var(--fontfamyli);
+    margin-bottom: 5px;
+    
+}
+.rodape{
+    height: 300px;
+    width: 100vw;
+    background-color: black;
+}
+
+.rodape_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.cx_container{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-top: 60px;
+}
+
+#codar_titulo{
+    color: var(--branco);
+    font-size: 30px;
+}
+
+.descricao{
+    font-size: 12px;
+    color: var(--branco);
+    font-family: var(--fontfamyli);
+    margin-bottom: 5px;
+}
+
+.cx_titulo{
+    color: var(--branco);
+    font-size: 20px;
+}
+
+.cx_subdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape_imagem{
+    width: 40px;
+    height: 40px;
+    background-color: var(--branco);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 425px) {
+    .body{
+        margin: 0 auto;
+    }
+    .main{
+        width: 100%;
+    }
+    .flex__container--cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu--cabecalho{
+        display: flex;
+        flex-direction: column;
+    }
+    .sessao_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .vantagens{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .depoimentos_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape_container{
+        display: flex;
+        flex-direction: column;
+    }
+}
